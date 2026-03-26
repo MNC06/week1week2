@@ -1,3 +1,6 @@
+#ifndef BMP_H
+#define BMP_H
+
 // CS50x Week 4 — BMP type definitions (distribution code)
 // DO NOT MODIFY THIS FILE
 
@@ -45,3 +48,5 @@ typedef struct
     BYTE  rgbtRed;
 } __attribute__((__packed__))
 RGBTRIPLE;
+
+#endif
